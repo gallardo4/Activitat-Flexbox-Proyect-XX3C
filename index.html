@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard de Gestión de Proyectos</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+  <header class="header">
+    <div class="logo">XX3C</div>
+    <div class="search-container">
+      <input type="text" placeholder="Buscar..." class="search-input">
+      <button class="search-btn"><i class="fas fa-search"></i></button>
+    </div>
+    <div class="user-menu">
+      <img src="profile.jpg" alt="Usuario" class="user-avatar">
+      <span class="user-name">Usuario</span>
+      <button><i class="fas fa-bell notification-icon"></i></button>
+    </div>
+  </header>
+
+  <div class="container">
+    <nav class="sidebar">
+      <ul>
+        <li class="active"><a href="#">Inicio</a></li>
+        <li><a href="#">Proyectos</a></li>
+        <li><a href="#">Estadísticas</a></li>
+        <li><a href="#">Configuración</a></li>
+      </ul>
+    </nav>
+
+    <main class="main-content">
+      <section class="task-progress">
+        <div class="task-card">Tarea 1</div>
+        <div class="task-card">Tarea 2</div>
+        <div class="task-card">Tarea 3</div>
+        <div class="task-card">Tarea 4</div>
+      </section>
+      <section class="general-stats">
+        <div class="stat-card">Gráfica 1</div>
+        <div class="stat-card">Gráfica 2</div>
+        <div class="stat-card">Gráfica 3</div>
+      </section>
+    </main>
+
+    <aside class="feed">
+      <h3>Notificaciones recientes</h3>
+      <ul>
+        <li>Mensaje 1</li>
+        <li>Mensaje 2</li>
+        <li>Mensaje 3</li>
+      </ul>
+    </aside>
+  </div>
+
+  <footer class="footer">
+    <a href="#">Ayuda</a>
+    <a href="#">Términos y condiciones</a>
+    <a href="#">Política de privacidad</a>
+  </footer>
+</body>
+</html>
