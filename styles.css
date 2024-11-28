@@ -10,13 +10,14 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    background-color: #f5f5f5;
 }
 
 .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: #004b8d;
+    background: #333;
     color: #fff;
     padding: 1rem;
 }
@@ -33,14 +34,15 @@ body {
 
 .search-input {
     padding: 0.5rem;
-    border: none;
+    border: 1px solid #ccc;
     border-radius: 5px;
+    background-color: #fff;
 }
 
 .search-btn {
     background: transparent;
     border: none;
-    color: #fff;
+    color: white;
     cursor: pointer;
 }
 
@@ -54,6 +56,7 @@ body {
     width: 40px;
     height: 40px;
     border-radius: 50%;
+    background-color: #bbb;
 }
 
 .container {
@@ -62,8 +65,7 @@ body {
 }
 
 .sidebar {
-    background: #00274d;
-    color: #fff;
+    background: #464646;
     width: 200px;
     padding: 1rem;
 }
@@ -96,12 +98,11 @@ body {
 }
 
 .task-card {
-    background: #d9e9ff;
+    background: #e9f7f7;
     padding: 1rem;
     border-radius: 5px;
     text-align: center;
     flex: 1 1 calc(25% - 1rem);
-    /* Ajusta el ancho al 25% menos el espacio del gap */
     max-width: calc(25% - 1rem);
 }
 
@@ -112,24 +113,24 @@ body {
 }
 
 .stat-card {
-    background: #cce7ff;
+    background: #d1f0f0;
     padding: 1rem;
     text-align: center;
     border-radius: 5px;
     flex: 1 1 calc(33.33% - 1rem);
-    /* Ajusta el ancho al 33.33% menos el espacio del gap */
     max-width: calc(33.33% - 1rem);
 }
 
 .feed {
-    background: #f4f4f4;
+    background: #fff;
     width: 300px;
     padding: 1rem;
     display: block;
+    border: 1px solid #ddd;
 }
 
 .footer {
-    background: #00274d;
+    background: #353535;
     color: #fff;
     display: flex;
     justify-content: center;
@@ -143,7 +144,7 @@ a {
 }
 
 a:hover {
-    color: aqua;
+    color: #007bff;
 }
 
 i {
@@ -171,5 +172,9 @@ i {
 
     .feed {
         display: none;
+    }
+
+    footer {
+        flex-direction: column;
     }
 }
